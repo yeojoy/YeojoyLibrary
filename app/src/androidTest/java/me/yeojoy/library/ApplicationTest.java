@@ -1,4 +1,4 @@
-package me.yeojoy.yeojoylibrary;
+package me.yeojoy.library;
 
 import android.app.Application;
 import android.test.ApplicationTestCase;

@@ -1,4 +1,4 @@
-package me.yeojoy.yeojoylibrary.log;
+package me.yeojoy.library.log;
 
 import android.util.Log;
 
