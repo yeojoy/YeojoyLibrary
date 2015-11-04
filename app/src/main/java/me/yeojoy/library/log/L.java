@@ -9,7 +9,7 @@ import java.net.UnknownHostException;
 /**
  * Created by yeojoy on 15. 7. 15..
  */
-public class MyLog {
+public class L {
 
     // Debug
     public static void d(String tag, String message) {
@@ -49,21 +49,6 @@ public class MyLog {
     }
 
     // using Throwable
-    // Debug
-    public static void d(String tag, Throwable tr) {
-        Log.d(tag, getLoggerLocation() + getStackTraceString(tr));
-    }
-
-    // Warning
-    public static void w(String tag, Throwable tr) {
-        Log.w(tag, getLoggerLocation() + getStackTraceString(tr));
-    }
-
-    // Info
-    public static void i(String tag, Throwable tr) {
-        Log.i(tag, getLoggerLocation() + getStackTraceString(tr));
-    }
-
     // Error
     public static void e(String tag, Throwable tr) {
         Log.e(tag, getLoggerLocation() + getStackTraceString(tr));
